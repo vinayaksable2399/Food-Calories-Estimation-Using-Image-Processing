@@ -1,5 +1,5 @@
 
-<b><span style="color: red; font-family: Babas; font-size: 2em;">Food Calories Estimation Using Image Processing</span></b>
+# Food Calories Estimation Using Image Processing
 <img src="1.jpg" alt="python" width="150" height="190" align="right">
 
 ## [Vinayak Sable](https://www.linkedin.com/in/vinayak-sable-675502131) 
@@ -11,9 +11,9 @@
  2.	To estimate food weight and calories of food
 
 + ### Data collection
- For this project I used two datasets:
-    1. FOODD
-    2. ECUST Food Dataset (ECUSTFD)
+For this project I used two datasets:
+1. FOODD
+2. ECUST Food Dataset (ECUSTFD)
   >In this project I used 6 food items like apple, banana, carrot, cucumber, onion, orange and tomato which details given in table below
 
 | Fruits | Density |	Calorie | Label |	Shape |
@@ -27,7 +27,7 @@
 |Tomato	|0.481 |18|	7|	Sphere|
 #### Sample food images in dataset:
 
-<img src="2.png" alt="python" width="615" height="224" align="centre">
+<img src="2.PNG" alt="python" width="615" height="224" align="centre">
 
 
 ### Recognition method
