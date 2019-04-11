@@ -1,1 +1,1 @@
-# food-calories-estimation-using-Image-processing
+# food calories estimation using Image processing
