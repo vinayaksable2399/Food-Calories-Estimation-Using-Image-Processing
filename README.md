@@ -1,5 +1,5 @@
 
-<b><span style="color: red; font-family: Babas; font-size: 2.5em;">Food Calories Estimation Using Image Processing</span></b>
+<b><span style="color: red; font-family: Babas; font-size: 2em;">Food Calories Estimation Using Image Processing</span></b>
 <img src="1.jpg" alt="python" width="150" height="190" align="right">
 
 ## [Vinayak Sable](https://www.linkedin.com/in/vinayak-sable-675502131) 
@@ -16,9 +16,9 @@
     2. ECUST Food Dataset (ECUSTFD)
   >In this project I used 6 food items like apple, banana, carrot, cucumber, onion, orange and tomato which details given in table below
 
-|Fruits | Density |	Calorie | Label|	Shape|
-|------------------------------------------------|
-| Apple| 	0.609| 	52| 	1	| Sphere| 
+| Fruits | Density |	Calorie | Label |	Shape |
+|--------|---------|----------|--------|---------|
+| Apple| 	0.609 | 	52 | 	1	| Sphere | 
 | Banana |	0.94 |	89 |	2 |	Cylinder |
 | Carrot |	0.641|	41 |3	|Cylinder|
 |Cucumber|	0.641|	16	|4|	Cylinder|
@@ -26,6 +26,7 @@
 |Orange	|0.482|	47|	6|	Sphere|
 |Tomato	|0.481 |18|	7|	Sphere|
 #### Sample food images in dataset:
+
 <img src="2.png" alt="python" width="615" height="224" align="centre">
 
 
@@ -75,4 +76,3 @@ A mixture of methods including canny edge detection, watershed segmentation, mor
 
 
 <a href="mailto:vinayak.sable.56@gmail.com">@vinayak</a> What do you think about these ?
-
