@@ -11,7 +11,7 @@ from random import shuffle # mixing up or currently ordered data that might lead
 import glob
 import cv2
 
-path = r'C:\Users\M Sc-2\Desktop\model2'
+path = r'Path of folder contain fruits images fordels'
 IMG_SIZE = 400
 LR = 1e-3
 
@@ -94,10 +94,12 @@ test_y = [i[1] for i in test]
 model.fit({'input': X}, {'targets': Y}, n_epoch=10, validation_set=({'input': test_x}, {'targets': test_y}), 
     snapshot_step=500, show_metric=True, run_id=MODEL_NAME)
 
+model.save(MODEL_NAME)
+
 
 
 from calorie import calories
-test_data=r'C:\Users\M Sc-2\Desktop\dataset\IMG_20190401_094222.jpg'
+test_data='Image path for testing'
 img=cv2.imread(test_data)
 img1=cv2.resize(img,(IMG_SIZE,IMG_SIZE))
 model_out=model.predict([img1])
@@ -107,7 +109,6 @@ cal=round(calories(result+1,img),2)
 
 
 import matplotlib.pyplot as plt
-img=cv2.imread()
 plt.imshow(img)
 plt.title('{}({}kcal)'.format(name,cal))
 plt.axis('off')
