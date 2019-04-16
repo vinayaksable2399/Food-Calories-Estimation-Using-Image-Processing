@@ -33,8 +33,8 @@ For this project I used two datasets:
 ### Recognition method
 Food Recognition deals with recognition of food item when given an image. For this problem I used Convolutional Neural Network (CNN). The Architecture of  CNN given below figure 
 <img src="3.png" alt="python" width="615" height="224" align="centre">
-> *all this work done in ```cnn.py`` file*
-change the directory to ```food-calories-estimation-using-Image-processing-master``` folder and give sufficient information to ```cnn.py``` python file and run
+> **all this work done in ```cnn.py`` file
+change the directory to ```food-calories-estimation-using-Image-processing-master``` folder and give sufficient information to ```cnn.py``` python file and run**
 
 
 
