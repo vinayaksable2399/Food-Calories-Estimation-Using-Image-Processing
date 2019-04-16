@@ -19,7 +19,7 @@ In this project I used 7 food items like apple, banana, carrot, cucumber, onion,
   
 ###### Food type
 | Fruits  | Density | Calorie| Label |	Shape   |
-|---------|---------|--------|-------|---------|
+| ------- | ------- | ------ | ----- | ------- |
 | Apple   | 0.609   | 52     | 1     | Sphere  | 
 | Banana  | 0.94    | 89     | 2     | Cylinder|
 | Carrot  | 0.641   | 41     | 3     | Cylinder|
