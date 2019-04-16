@@ -9,12 +9,14 @@
 + ### Objectives
  1.	To detect food type by using Convolutional Neural Network (CNN)
  2.	To estimate food weight and calories of food
+ 
 
 + ### Data collection
 For this project I used two datasets:
 1. [FOODD](http://www.site.uottawa.ca/~shervin/food/)
 2. ECUST Food Dataset (ECUSTFD)
-In this project I used 7 food items like apple, banana, carrot, cucumber, onion, orange and tomato which details given in table below
+
+>In this project I used 7 food items like apple, banana, carrot, cucumber, onion, orange and tomato which details given in table below
   
   
 ## Food type
@@ -40,7 +42,7 @@ In this project I used 7 food items like apple, banana, carrot, cucumber, onion,
 ### Recognition method
 Food Recognition deals with recognition of food item when given an image. For this problem I used Convolutional Neural Network (CNN). The Architecture of  CNN given below figure 
 <img src="3.png" alt="python" width="615" height="224" align="centre">
-> **all this work done in ```cnn.py`` file
+> **all this work done in ```cnn.py``` file
 change the directory to ```food-calories-estimation-using-Image-processing-master``` folder and give sufficient information to ```cnn.py``` python file and run**
 
 
@@ -50,7 +52,9 @@ change the directory to ```food-calories-estimation-using-Image-processing-maste
 + Anaconda Distribution 4.6.11
 + Python
 + Tensorflow 
-+ keras 
++ tflearn
+
+
 
 
 
@@ -69,7 +73,8 @@ A mixture of methods including canny edge detection, watershed segmentation, mor
 ### Limitation and Scope
 + #### Limitations:
     1.	Actual weight and calories can’t find due to image quality
-    2.	Difficult To Find Appropriate Angle Between Fruit And Camera
+    2.	Difficult to find appropriate angle between fruit And camera
+    3. Lighting condition i.e pixel changes with respect to light
     
 + #### Scope:
     1.	Estimate the calorie from all types of fruits.
