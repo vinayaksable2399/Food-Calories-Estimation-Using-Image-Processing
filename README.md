@@ -14,8 +14,10 @@
 For this project I used two datasets:
 1. [FOODD](http://www.site.uottawa.ca/~shervin/food/)
 2. ECUST Food Dataset (ECUSTFD)
-  >In this project I used 7 food items like apple, banana, carrot, cucumber, onion, orange and tomato which details given in table below
-  ###### Food type
+  >In this project I used 7 food items like apple, banana, carrot, cucumber, onion, orange and tomato which details given in >table below
+  
+  
+###### Food type
 | Fruits  | Density | Calorie| Label |	Shape   |
 |---------|---------|--------|-------|---------|
 | Apple   | 0.609   | 52     | 1     | Sphere  | 
