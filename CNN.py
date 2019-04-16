@@ -16,7 +16,7 @@ IMG_SIZE = 400
 LR = 1e-3
 
 MODEL_NAME = 'Fruits_dectector-{}-{}.model'.format(LR, '5conv-basic')
-no_of_fruits=5
+no_of_fruits=7
 percentage=0.3
 no_of_images=100
 
@@ -87,7 +87,7 @@ test=training_data[-a:]
 
 X = np.array([i[0] for i in train]).reshape(-1,IMG_SIZE,IMG_SIZE,3)
 Y = [i[1] for i in train]
-Y =np.array(Y)
+
 test_x = np.array([i[0] for i in test]).reshape(-1,IMG_SIZE,IMG_SIZE,3)
 test_y = [i[1] for i in test]
 
