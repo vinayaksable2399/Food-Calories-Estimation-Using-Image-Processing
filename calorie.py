@@ -46,7 +46,7 @@ def calories(result,img):
     fruit_calories_100grams=cal_100
     fruit_mass=mass
     #print("\nfruit_volumes",fruit_volumes,"\nfruit_calories",fruit_calories,"\nruit_calories_100grams",fruit_calories_100grams,"\nfruit_mass",fruit_mass)
-    return fruit_mass
+    return fruit_calories
 
 if __name__ == '__main__':
     
