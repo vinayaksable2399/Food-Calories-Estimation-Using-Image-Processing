@@ -45,6 +45,9 @@ Food Recognition deals with recognition of food item when given an image. For th
 > **all this work done in ```cnn.py``` file
 change the directory to ```food-calories-estimation-using-Image-processing-master``` folder and give sufficient information to ```cnn.py``` python file and run**
 
+#### Model representation
+<img src="graph_run=Fruits_dectector-0.001-5conv-basic.png" alt="python" align="centre">
+
 
 
 ### Requirements
@@ -68,6 +71,17 @@ A mixture of methods including canny edge detection, watershed segmentation, mor
 
 
 
+## Result
+
+ | Fruits  | Calorie | Estimated Calories|
+ | ------- | ------- | -----------------| 
+ | Apple   |  53.96  |   40.42          |
+ | Banana  |  170.88 |   188.81         |  
+ | Carrot  |  31.16  |   26.28          |
+ | Cucumber|  29.44  |   37.65          |
+ | Onion   |  44.88  |   37.13          |  
+ | Orange  |  69.09  |   71.92          |
+ | Tomato  |  17.46  |   13.82          |
 
 
 ### Limitation and Scope
