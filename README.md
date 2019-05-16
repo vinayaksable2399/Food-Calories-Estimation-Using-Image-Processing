@@ -48,6 +48,14 @@ change the directory to ```food-calories-estimation-using-Image-processing-maste
 #### Model representation
 <img src="graph_run=Fruits_dectector-0.001-5conv-basic.png" alt="python" align="centre">
 
+### Accuracy 
+<img src="Accuracy_Validation.svg" alt="python" width="615" height="224" align="centre">
+
+### Loss
+<img src="Loss_Validation.svg" alt="python" width="615" height="224" align="centre">
+
+
+
 
 
 ### Requirements
