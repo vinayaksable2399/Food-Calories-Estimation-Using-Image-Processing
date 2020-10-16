@@ -13,7 +13,7 @@
 
 + ### Data collection
 For this project I used two datasets:
-1. [FOODD](http://www.site.uottawa.ca/~shervin/food/)
+1. [FOODD](https://drive.google.com/drive/folders/1rmVS_n6P1859trFxKhY7iHVywjTIRYwn?usp=sharing)
 2. ECUST Food Dataset (ECUSTFD)
 
 >In this project I used 7 food items like apple, banana, carrot, cucumber, onion, orange and tomato which details given in table below
@@ -66,11 +66,17 @@ change the directory to ```food-calories-estimation-using-Image-processing-maste
 + tflearn
 
 
+### Testing
+for testing our model run
+```
+python demo.py
+```
 
-
-
-
-
+### Training
+Download data from above FOODD link and create forlder in repo FOODD and run
+```
+python train.py
+```
 
 ### Estimation Method:
 + #### Image Segmentation:
