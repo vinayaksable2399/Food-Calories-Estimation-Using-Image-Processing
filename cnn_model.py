@@ -5,7 +5,10 @@ from tflearn.layers.estimator import regression
 import tensorflow as tf
 
 def get_model(IMG_SIZE,no_of_fruits,LR):
-	tf.reset_default_graph()
+	try:
+		tf.reset_default_graph()
+	except:
+		print("tensorflow")
 	convnet = input_data(shape=[None, IMG_SIZE, IMG_SIZE, 3], name='input')
 
 	convnet = conv_2d(convnet, 32, 5, activation='relu')
