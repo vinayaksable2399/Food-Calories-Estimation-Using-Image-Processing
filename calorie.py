@@ -50,6 +50,6 @@ def calories(result,img):
 
 if __name__ == '__main__':
     
-    a=r'C:\Users\M Sc-2\Desktop\data\sa\data1.jpg'
+    a=r'image_path'
     a=cv2.imread(a)
-    print(testing(1,a))
+    print(calories(1,a))
